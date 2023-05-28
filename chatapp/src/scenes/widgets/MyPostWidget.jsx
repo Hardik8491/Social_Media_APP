@@ -71,7 +71,7 @@ const MyPostWidget = ({ picturePath }) => {
     //   body: formData,
     // });
 
-    const response = await axios.post("http://localhost:3001/posts", formData, {
+    const response = await axios.post(`${backendUrl}/posts`, formData, {
       headers: {
         Authorization: `Bearer ${token}`,
       },

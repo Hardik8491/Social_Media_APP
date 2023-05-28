@@ -1,0 +1,1 @@
+export default backendUrl='https://cute-teal-sheep-hat.cyclic.app'
