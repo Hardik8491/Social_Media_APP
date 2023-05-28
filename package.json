@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start":"node server/index.js",
-    "build":"npm install && cd chatapp && npm install --legacy-peer-deps && npm run build && cd.."
+    "build":"npm install && cd chatapp && npm install --legacy-peer-deps && npm run build && cd .."
 
   },
   "keywords": [],
