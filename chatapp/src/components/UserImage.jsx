@@ -1,4 +1,5 @@
 import { Box } from "@mui/system";
+import backendUrl from '../constant'
 const UserImage = ({image,size ="60px"})=>{
 return (
 <Box width={size} height={size}>
