@@ -58,10 +58,10 @@ app.use("/static", express.static("public"));
 
 
 //Server Side Rendering through node js
-app.use(express.static(path.join(__dirname, "../chatapp/build")));
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "../chatapp/build/index.html"));
-});
+// app.use(express.static(path.join(__dirname, "../chatapp/build")));
+// app.get("*", (req, res) => {
+//   res.sendFile(path.resolve(__dirname, "../chatapp/build/index.html"));
+// });
 /**ROUTES WITH FILES */
 app.post("/auth/register", upload.single("picture"), register);
 app.post("/post", verifyToken, upload.single("picture"), createPost);
